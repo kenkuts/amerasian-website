@@ -6,8 +6,8 @@
 $(function() {
 
     //settings for slider
-    var width = 721;
-    var animationSpeed = 1500;
+    var width = 720;
+    var animationSpeed = 2500;
     var pause = 4000;
     var currentSlide = 1;
 
@@ -21,7 +21,7 @@ $(function() {
     function startSlider() {
         interval = setInterval(function() {
             $slideContainer.animate({'margin-left': '-='+width}, animationSpeed, function() {
-                if (++currentSlide === $slides.length) {
+                if (++currentSlide == $slides.length) {
                     currentSlide = 1;
                     $slideContainer.css('margin-left', 0);
                 }
