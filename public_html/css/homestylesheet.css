@@ -207,7 +207,7 @@ li.dropdown {
 
 /*Contact Us page*/
 
-.contacArticleSection{
+#contacArticleSection{
 
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
@@ -255,7 +255,38 @@ hr {
 	max-width: none!important;
 	background:none!important;
 }
-/*spaghetti code starts here*/
+
+/*Press Page*/
+
+#pressReleasesSection {
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-style: solid;
+	//border-color: black;
+	height: 2650px;
+	width: 1000px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#press {
+	font-family: Copperplate, 'Copperplate Gothic Light', sans-serif, serif;
+	text-align: center;
+	//font-size: 43px;
+	color: black;
+}
+
+div.pressBox{
+border-top:#AAA solid 2px;
+margin:12px 0 0 0;
+padding:12px 0 0 0;
+text-align:center;
+font-style:italic;
+font-family:"Georgia";
+font-size:12px;
+}
+/*spaghetti code starts hern*/
 
 
 
