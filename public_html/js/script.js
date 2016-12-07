@@ -1,6 +1,6 @@
-//$(document).ready(function(){
-//	$('#para').fadeIn(2000);
-//});
+$(document).ready(function(){
+	$('#para').fadeIn(2000);
+});
 "use strict";
 
 $(function() {
