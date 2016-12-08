@@ -260,6 +260,24 @@ font-family:"Georgia";
 font-size:12px;
 }
 
+/*Article Page*/
+
+
+
+
+/*Media Page*/
+.mediaSection {
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border-style: solid;
+	//border-color: black;
+	height: 2400px;
+	width: 1000px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
 
 /*Board Members Page*/
 
@@ -351,14 +369,12 @@ img {
 
 }
 
-h2 {
- 	padding-left: 15px;
- }
+
  #contactUs {
 	font-family: Copperplate, 'Copperplate Gothic Light', sans-serif, serif;
 	text-align: center;
 	color: black;
-	padding-left: 15px;
+
 }
 
 hr {
