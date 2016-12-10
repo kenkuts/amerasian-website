@@ -491,7 +491,22 @@ p.bm{
 .container {
     padding: 0px 0px;
 }
+/*Pro Amerasian Groups Page*/
 
+#group{
+	height: 730px;
+}
+#groupsPage{
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border-style: solid;
+	//border-color: black;
+	height: 795px;
+	width: 1000px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 10px;
+}
 
 /*Contact Us page*/
 
