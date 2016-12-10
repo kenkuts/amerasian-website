@@ -1,0 +1,24 @@
+
+Options +Indexes
+
+IndexOptions IgnoreCase FancyIndexing FoldersFirst NameWidth=* DescriptionWidth=* SuppressHTMLPreamble
+
+#HeaderName /forms/header.html
+
+#ReadmeName /forms/footer.html
+
+IndexIgnore *.php *.html *.xfdl *.psd *.htaccess *.txt
+
+#AddIcon /images/folder.gif ^^DIRECTORY^^
+
+#AddIcon /images/green_up.gif ..
+
+#AddIcon /images/bmp_small.png .bmp
+
+#AddIcon /images/jpg_small.png .jpg
+
+#AddIcon /images/png_small.png .png
+
+#AddIcon /images/gif_small.png .gif
+
+#AddIcon /images/psd_small.png .psd

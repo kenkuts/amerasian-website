@@ -1,6 +1,6 @@
 
 body {
-	background-color: white; /*#FFBB73;*/
+	background-color: rgb(225, 213, 185); /*#FFBB73;*/
 }
 h1{	
 	font-family: Copperplate, 'Copperplate Gothic Light', sans-serif, serif;
@@ -228,9 +228,11 @@ li.dropdown {
 }
 
 
-/*Press Page*/
+/*Press Releases Page*/
 
-
+a.art2{
+	font-size: 12px;
+}
 #pressReleasesSection {
 	border-top-right-radius: 3px;
 	border-top-left-radius: 3px;
@@ -262,8 +264,71 @@ font-size: 12px;
 
 /*Article Page*/
 
+.articlePage {
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border-style: solid;
+	//border-color: black;
+	height: 715px;
+	width: 1000px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 10px;
+}
 
+#confPapers{
+	width: 100%;
+	height: 370px;
+}
 
+.wrapper{
+	padding-bottom: 10px;
+	text-align: center;
+
+}
+a.art, a.art2,a.art:visited,a.art:hover,a.art:active{
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+	position:relative;
+  transition:0.5s color ease;
+	text-decoration:none;
+	color: #660000;
+}
+a.art{
+
+	font-size: 20px;
+}
+a.art:hover, a.art2:hover{
+	color:orange;
+}
+a.after:after{
+  content: "";
+  transition:0.5s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+}
+a.before:before{
+  top:-0.25em;
+}
+a.after:after{
+  bottom:-0.25em;
+}
+a.after:after{
+  height:5px;
+  height:0.35rem;
+  width:0;
+  background:orange;
+}
+a.third:after{
+  left:50%;
+  -webkit-transform:translateX(-50%);
+          transform:translateX(-50%);
+}
+
+a.after:hover:after{
+  width:100%;
+}
 
 /*Media Page*/
 .mediaSection {
