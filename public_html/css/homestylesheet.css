@@ -543,6 +543,7 @@ p.arcFont{
 	padding-left: 22px;
 }
 
+/*2012*/
 #archivePage2012 {
 	border-top-right-radius: 3px;
 	border-top-left-radius: 3px;
@@ -553,6 +554,23 @@ p.arcFont{
 	background-color: white;
 	margin: 0 auto;
 	margin-top: 10px;
+}
+
+/*2014*/
+#archivePage2014 {
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border-style: solid;
+	//border-color: black;
+	height: 2370px;
+	width: 1000px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.photo {
+	padding-left: 50px;
 }
 
 /*Contact Us page*/
