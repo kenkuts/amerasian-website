@@ -207,6 +207,7 @@ li.dropdown {
 	text-align: center;
 	color: black;
 	padding-left: 15px;
+
 }
 
 .mapArticleSection {
@@ -215,7 +216,7 @@ li.dropdown {
 	border-top-left-radius: 3px;
 	border-style: solid;
 	//border-color: black;
-	height: 1650px;
+	height: 985px;
 	width: 1000px;
 	background-color: white;
 	margin: 0 auto;
@@ -507,7 +508,7 @@ p.bm{
 	border-top-left-radius: 3px;
 	border-style: solid;
 	//border-color: black;
-	height: 795px;
+	height: 775px;
 	width: 1000px;
 	background-color: white;
 	margin: 0 auto;
@@ -528,7 +529,7 @@ p.bm{
 	margin-top: 10px;
 }
 .intConf {
-	padding-left: 150px;
+	padding-left: 100px;
 }
 .arcYears{
 	margin: 0 auto;
@@ -536,6 +537,24 @@ p.bm{
 p.arcFont{
 	font-size: 18px;
 }
+
+.arcFont2{
+	font-size: 18px;
+	padding-left: 22px;
+}
+
+#archivePage2012 {
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border-style: solid;
+	//border-color: black;
+	height: 2110px;
+	width: 1000px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
 /*Contact Us page*/
 
 
