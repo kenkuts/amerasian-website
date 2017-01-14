@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	$('#para').fadeIn(2000);
 });
 "use strict";
 
@@ -7,8 +6,8 @@ $(function() {
 
     //settings for slider
     var width = 720;
-    var animationSpeed = 2500;
-    var pause = 4000;
+    var animationSpeed = 4500;
+    var pause = 7000;
     var currentSlide = 1;
 
     //cache DOM elements

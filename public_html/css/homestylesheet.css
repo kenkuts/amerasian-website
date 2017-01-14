@@ -16,7 +16,7 @@ p {
 	font-family: times;
 	color: #000000;
 	font-size: 20px;
-	padding-left: 15px;
+	padding-left: 22px;
 	padding-right: 15px;
 
 }
@@ -162,8 +162,8 @@ li.dropdown {
 }
 
 /* helper css, since we don't have images */
-.slide1 {background: white;}
-.slide2 {background: url('../images/ICISS-UBC-2014.jpg');}
+.slide1 {background: url('../images/am.jpg');}
+.slide2 {background: url('../images/IMG_3022.jpg');}
 .slide3 {background: blue;}
 .slide4 {background: black;}
 .slide5 {background: white;}
@@ -174,7 +174,7 @@ li.dropdown {
 	border-top-left-radius: 3px;
 	border-style: solid;
 	//border-color: black;
-	height: 2650px;
+	height: 1530px;
 	width: 1000px;
 	background-color: white;
 	margin: 0 auto;
@@ -216,7 +216,7 @@ li.dropdown {
 	border-top-left-radius: 3px;
 	border-style: solid;
 	//border-color: black;
-	height: 985px;
+	height: 995px;
 	width: 1000px;
 	background-color: white;
 	margin: 0 auto;
@@ -434,7 +434,7 @@ p.mediaFont{
 	border-top-left-radius: 3px;
 	border-style: solid;
 	//border-color: black;
-	height: 1870px;
+	height: 1880px;
 	width: 1000px;
 	background-color: white;
 	margin: 0 auto;
@@ -457,7 +457,7 @@ p.bm{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 250px;
-    height: 330px;
+    height: 350px;
     border-radius: 5px;
     margin: auto;
     margin-bottom: 30px;
@@ -486,7 +486,7 @@ p.bm{
     margin-top: 10px;
     margin-bottom: 20px;
 }
-.card:hover {
+.card:hover, .cardT:hover, .cardA:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
@@ -514,13 +514,18 @@ p.bm{
 }
 
 /*Archive Page*/
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
 
 #archivePage {
 	border-top-right-radius: 3px;
 	border-top-left-radius: 3px;
 	border-style: solid;
 	//border-color: black;
-	height: 530px;
+	height: 600px;
 	width: 1000px;
 	background-color: white;
 	margin: 0 auto;
@@ -538,7 +543,7 @@ p.arcFont{
 
 .arcFont2{
 	font-size: 18px;
-	padding-left: 22px;
+	//padding-left: 22px;
 }
 
 /*2012*/
@@ -636,17 +641,18 @@ hr {
 #map {
 
 	overflow: hidden;
-	height: 500px; 
-	width: 500px;
+	height: 420px; 
+	width: 420px;
 	float: right;
-	padding-right: 15px;
+	padding-right: 85px;
+	padding-top: 55px;
 
 }
 
 #gmap_canvas {
 
-	height: 500px;
-	width: 500px;
+	height: 420px;
+	width: 420px;
 }
 
 #gmap_canvas img {
